@@ -1,0 +1,1 @@
+A very simple hadoop map-reduce task that calculate the page rank of the links for 3 iterations.
