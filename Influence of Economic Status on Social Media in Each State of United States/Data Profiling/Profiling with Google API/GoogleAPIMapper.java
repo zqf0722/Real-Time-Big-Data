@@ -31,7 +31,7 @@ public class GoogleAPIMapper extends Mapper<LongWritable, Text, Text, Text>{
         String latitude = tokens[2];
         String longitude = tokens[3];
         String check_in_time = tokens[1].substring(0, 10);
-        String API_key = "AIzaSyBkhKlor1ZfV3EcGvyhjHmBfqDXDjvUxio";
+        String API_key = "York_API_Key";
         String request = "https://maps.googleapis.com/maps/api/geocode/json?latlng=" +
                 latitude + "," + longitude + "&key=" + API_key;
         CloseableHttpClient httpclient = HttpClients.createDefault();
